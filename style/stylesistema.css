@@ -1,0 +1,142 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif; 
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(255, 94, 0)); 
+   } 
+   .box{ 
+    color: white; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgb(0, 0, 0, 0.6); 
+    padding: 15px; 
+    border-radius: 15px; 
+    width: 90%;
+    margin-top: 100px;
+
+} 
+
+fieldset{ 
+    border: 3px solid dodgerblue; 
+} 
+
+legend{ 
+    border: 1px solid dodgerblue; 
+    padding: 10px; 
+    text-align: center; 
+    background-color: dodgerblue; 
+    border-radius: 10px; 
+    color: white; 
+} 
+
+.inputbox{ 
+    position: relative; 
+} 
+
+.inputUser{ 
+    background: none; 
+    border: none; 
+    border-bottom: 1px solid white; 
+    outline: none; 
+    color: white; 
+    font-size: 15px; 
+    width: 100%; 
+    letter-spacing: 2px; 
+    display: flexbox;
+} 
+
+.labelinput{ 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    pointer-events: none; 
+    transition: 2s; 
+} 
+
+.inputUser:focus ~ .labelinput, .inputUser:valid ~ .labelinput { 
+    top: -20px; 
+    font-size: 12px; 
+    color: dodgerblue; 
+
+} 
+
+
+
+#submit{ 
+    background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220)); 
+    width: 100%; 
+    border: none; 
+    padding: 15px; 
+    color: white; 
+    font-size: 15px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+} 
+
+#submit:hover{ 
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195)); 
+} 
+nav {
+   background-color: #333;
+   height: 60px;
+   border-radius: 0px 0px 5px 5px;
+   width: 100%;
+   }
+
+   ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   }
+
+   li {
+   display: inline-block;
+   
+   }
+
+   li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   }
+
+   li a:hover {
+   background-color: #111;
+   border-radius: 5px;
+   text-decoration: none;
+   color: aliceblue;
+   }
+   img{
+       width: 100%;
+       height: 100%;
+   }
+   .input_nota{
+       width: 50px;
+       margin: 5px;
+   }
+   .imag_nav{
+       margin-left: 10px;
+       margin: 4px;
+   }
+   .result{
+       display: inline-block;
+   }
+   #caixatx{
+       width: 100%;
+       
+   }
+   #bgnav{
+       background-color: #333;
+   }
+
+   .nav-link{
+    margin-bottom: -10px;
+   }
+
+   .logoo{
+    padding-top: 5px;
+   }
+
+  

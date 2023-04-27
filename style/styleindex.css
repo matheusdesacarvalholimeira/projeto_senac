@@ -1,0 +1,10 @@
+nav{
+    background-color: #333;
+   }
+   li a:hover {
+    background-color: #111;
+    border-radius: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    }
+   

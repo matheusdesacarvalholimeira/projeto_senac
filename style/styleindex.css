@@ -7,4 +7,20 @@ nav{
     text-decoration: none;
     color: aliceblue;
     }
+    .nav-link{
+        color: white;
+    }
+
+    .log{
+        background-color: rgb(20, 147, 220);
+        border-radius: 5px;
+        margin-right: 5px;
+        color: white;
+    }
+    .cad{
+        background-color: rgb(255, 94, 0);
+        border-radius: 5px;
+    }
+
+
    

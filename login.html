@@ -50,7 +50,7 @@
           }
           
           button {
-            background-color: #4CAF50;
+            background-color:rgb(255, 94, 0);
             color: #fff;
             padding: 10px 20px;
             border: none;
@@ -58,6 +58,7 @@
             cursor: pointer;
             font-weight: bold;
             transition: background-color 0.3s ease;
+            width: 100%;
           }
           
           button:hover {
@@ -75,12 +76,22 @@
             
             background-color: #333;
           }
+          .home{
+            color: white;
+            margin-top: 5px;
+          }
+          li a:hover {
+            background-color: #111;
+            border-radius: 2px;
+            text-decoration: none;
+            color: aliceblue;
+            }
           
 
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm  navbar-dark" id="bgnav">
+    <nav class="navbar navbar-expand-sm  " id="bgnav">
         <!-- logo -->
         <a class="navbar-brand" href="#">
           <img src="imagens/logo-senac.png" alt="logo" style="width:65px;" class="logoo">
@@ -88,21 +99,17 @@
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link home" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Sistema</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Alunos</a>
-            </li>
+            
+           
         </ul>
     </nav>
     <div class="container">
         <form>
-          <h2>Tela de Login</h2>
+          <h2>Login</h2>
           <div class="form-group">
-            <label for="username">Nome de usuário:</label>
+            <label for="username">Email de Usuario:</label>
             <input type="text" id="username" name="username" placeholder="Digite seu nome de usuário" required>
           </div>
           <div class="form-group">

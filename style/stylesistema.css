@@ -79,7 +79,7 @@ legend{
 nav {
    background-color: #333;
    height: 60px;
-   border-radius: 0px 0px 5px 5px;
+   
    width: 100%;
    }
 
@@ -137,6 +137,33 @@ nav {
 
    .logoo{
     padding-top: 5px;
+   }
+
+   .desa{
+    display: none;
+   }
+
+   #bto_add{
+    background-color: dodgerblue;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 50px;
+    margin-top: 10px;
+   }
+
+   #bto_add:hover{
+    background-color: rgb(20, 111, 201)
+   }
+
+   .unid{
+    margin: 5px;
+    margin-top: 25px;
+   }
+
+   .nav-link{
+    color: white;
+    margin-bottom: 2px;
    }
 
   

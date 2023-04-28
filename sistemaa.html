@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm  navbar-dark" id="bgnav">
+    <nav class="navbar navbar-expand-sm  " id="bgnav">
         <!-- logo -->
         <a class="navbar-brand" href="#">
           <img src="imagens/logo-senac.png" alt="logo" style="width:65px;">
@@ -29,27 +29,28 @@
       </nav>
       
       <div class="box"> 
-        <form action="formulario.php" method="post"> 
-           
-                <legend>Notas dos alunos</legend> 
-                <br> 
-                <div class="inputbox"> 
+                <legend>Sistema dos alunos</legend> 
+                <button type="submit" id="bto_add" class="apre ">add</button>
+                
+               <!-- <div class="inputbox"> 
                     <input type="text" name="nome" id="nome" class="inputUser" required> 
                     <label for="nome" class="labelinput">Nome completo</label> 
                 </div> <br>
                 <div class="inputbox"> 
                     <input type="text" name="matricula" id="matricula" class="inputUser" required> 
                     <label for="text" class="labelinput">Matricula</label> 
-                </div> <br><br>
+                </div> <br><br>-->
+                
+              <div class="desa">
                 <div>
                     
-                    <input type="radio" id="unidade" name="unidade" value="1unidade" required>
+                    <input type="radio" id="unidade" name="unidade" value="1unidade" class="unid">
                     <label for="">1 unidade</label>
                     
-                    <input type="radio" id="unidade" name="unidade" value="2unidade" required>
+                    <input type="radio" id="unidade" name="unidade" value="2unidade" class="unid">
                     <label for="">2 unidade</label>
 
-                    <input type="radio" id="unidade" name="unidade" value="3unidade" required>
+                    <input type="radio" id="unidade" name="unidade" value="3unidade" class="unid">
                     <label for="">3 unidade</label><br><br>
                 </div>
                 <div class="notas">
@@ -60,17 +61,17 @@
                     <p class="result"></p>
                 </div><br><br>
                 <div>
-                    
+                    <label for="">Texto de Descricao:</label>
                     <textarea name="" id="caixatx" cols="30" rows="10"></textarea>
                 </div>
-                <div></div>
-               
-                    
+                <div>
+                </div>
                 </div> 
                 </div> 
-               
-            
-        </form> 
+              </div> 
     </div> 
+    <script src="script/scritsistema.js">
+     
+    </script>
 </body>
 </html>

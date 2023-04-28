@@ -12,3 +12,13 @@ bt.addEventListener("click", ()=>{
 
 })
 
+let btmat = document.querySelector('.mat')
+
+btmat.addEventListener("click", ()=>{
+  if(document.querySelector('.alet').style.display == 'none'){
+    document.querySelector('.alet').style.display = 'block'
+  }else{
+    document.querySelector('.alet').style.display = 'none'
+  }
+})
+

@@ -12,7 +12,7 @@ body {
     padding: 15px; 
     border-radius: 15px; 
     width: 90%;
-    margin-top: 100px;
+    margin-top: 150px;
 
 } 
 
@@ -79,6 +79,8 @@ legend{
 nav {
    background-color: #333;
    height: 60px;
+   display: block;
+    
    
    width: 100%;
    }
@@ -141,6 +143,7 @@ nav {
 
    .desa{
     display: none;
+    
    }
 
    #bto_add{
@@ -150,6 +153,7 @@ nav {
     color: white;
     width: 50px;
     margin-top: 10px;
+    margin-bottom: 20px;
    }
 
    #bto_add:hover{
@@ -191,6 +195,18 @@ nav {
 
   .alet a{
     text-align: center;
+  }
+
+  #materia{
+    margin-bottom: 50px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+  }
+
+  #alunos{
+    width: 300px;
+    height: 30px;
   }
 
   
